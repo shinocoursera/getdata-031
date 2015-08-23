@@ -3,14 +3,15 @@
 This is a document to describe what is the process necessary to execute run_analysis.R file, which is part of Coursera Getting and Cleaning Data course project.
 
 ## Files
-run_analsysis.R: is the file that run the R code.
+**run_analsysis.R**: is the file that run the R code.
 
-READEME.md: is the file you are currently reading, which describes what's in this repository and their purpose.
+**READEME.md**: is the file you are currently reading, which describes what's in this repository and their purpose.
 
-CodeBook.md: is the file that describes the variables, the data, and any transformations that happend from original data to cleaned up of data.
+**CodeBook.md**: is the file that describes the variables, the data, and any transformations that happend from original data to cleaned up of data.
 
 ## File: run_analysis.R
 The file is called run_analsysis.R and it contains actual R code that execute following:
+* Step 0: Download necessary data from the source and extract the data.
 * Step 1: Merges the training and the test sets to create one data set.
 * Step 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
 * Step 3: Uses descriptive activity names to name the activities in the data set
@@ -64,4 +65,9 @@ The file is called run_analsysis.R and it contains actual R code that execute fo
 * ./data/UCI HAR Dataset/train/Inertial Signals/total_acc_y_train.txt
 * ./data/UCI HAR Dataset/train/Inertial Signals/total_acc_z_train.txt
 
-*Original Data* http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+*Data Source* http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+## The study goals (From data source)
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DO WNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity.  The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
