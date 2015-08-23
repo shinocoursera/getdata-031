@@ -15,56 +15,57 @@ The file is called run_analsysis.R and it contains actual R code that execute fo
 * Step 4: Appropriately labels the data set with descriptive variable names. 
 * Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Once run_analysis.R is run, the directory structure will change.
+## Directory and File Structures
 ### Before the run:
-./CodeBook.md
-./README.md
-./run_analysis.R
+* ./CodeBook.md
+* ./README.md
+* ./run_analysis.R
 
 ### After the run:
-./CodeBook.md
-./README.md
-./data
-./data_tidy.txt
-./run_analysis.R
+* ./CodeBook.md
+* ./README.md
+* ./data
+* ./data_tidy.txt
+* ./run_analysis.R
 
-./data/UCI HAR Dataset
-[./data/datasets.zip](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
+* ./data/UCI HAR Dataset
+* [./data/datasets.zip](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
 
-./data/UCI HAR Dataset/README.txt
-./data/UCI HAR Dataset/activity_labels.txt
-./data/UCI HAR Dataset/features.txt
-./data/UCI HAR Dataset/features_info.txt
-./data/UCI HAR Dataset/test
-./data/UCI HAR Dataset/train
+* ./data/UCI HAR Dataset/README.txt
+* ./data/UCI HAR Dataset/activity_labels.txt
+* ./data/UCI HAR Dataset/features.txt
+* ./data/UCI HAR Dataset/features_info.txt
+* ./data/UCI HAR Dataset/test
+* ./data/UCI HAR Dataset/train
 
-./data/UCI HAR Dataset/test/Inertial Signals
-./data/UCI HAR Dataset/test/X_test.txt
-./data/UCI HAR Dataset/test/subject_test.txt
-./data/UCI HAR Dataset/test/y_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals
+* ./data/UCI HAR Dataset/test/X_test.txt
+* ./data/UCI HAR Dataset/test/subject_test.txt
+* ./data/UCI HAR Dataset/test/y_test.txt
 
-./data/UCI HAR Dataset/test/Inertial Signals/body_acc_x_test.txt
-./data/UCI HAR Dataset/test/Inertial Signals/body_acc_y_test.txt
-./data/UCI HAR Dataset/test/Inertial Signals/body_acc_z_test.txt
-./data/UCI HAR Dataset/test/Inertial Signals/body_gyro_x_test.txt
-./data/UCI HAR Dataset/test/Inertial Signals/body_gyro_y_test.txt
-./data/UCI HAR Dataset/test/Inertial Signals/body_gyro_z_test.txt
-./data/UCI HAR Dataset/test/Inertial Signals/total_acc_x_test.txt
-./data/UCI HAR Dataset/test/Inertial Signals/total_acc_y_test.txt
-./data/UCI HAR Dataset/test/Inertial Signals/total_acc_z_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals/body_acc_x_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals/body_acc_y_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals/body_acc_z_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals/body_gyro_x_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals/body_gyro_y_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals/body_gyro_z_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals/total_acc_x_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals/total_acc_y_test.txt
+* ./data/UCI HAR Dataset/test/Inertial Signals/total_acc_z_test.txt
 
-./data/UCI HAR Dataset/train/Inertial Signals
-./data/UCI HAR Dataset/train/X_train.txt
-./data/UCI HAR Dataset/train/subject_train.txt
-./data/UCI HAR Dataset/train/y_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals
+* ./data/UCI HAR Dataset/train/X_train.txt
+* ./data/UCI HAR Dataset/train/subject_train.txt
+* ./data/UCI HAR Dataset/train/y_train.txt
 
-./data/UCI HAR Dataset/train/Inertial Signals/body_acc_x_train.txt
-./data/UCI HAR Dataset/train/Inertial Signals/body_acc_y_train.txt
-./data/UCI HAR Dataset/train/Inertial Signals/body_acc_z_train.txt
-./data/UCI HAR Dataset/train/Inertial Signals/body_gyro_x_train.txt
-./data/UCI HAR Dataset/train/Inertial Signals/body_gyro_y_train.txt
-./data/UCI HAR Dataset/train/Inertial Signals/body_gyro_z_train.txt
-./data/UCI HAR Dataset/train/Inertial Signals/total_acc_x_train.txt
-./data/UCI HAR Dataset/train/Inertial Signals/total_acc_y_train.txt
-./data/UCI HAR Dataset/train/Inertial Signals/total_acc_z_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals/body_acc_x_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals/body_acc_y_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals/body_acc_z_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals/body_gyro_x_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals/body_gyro_y_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals/body_gyro_z_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals/total_acc_x_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals/total_acc_y_train.txt
+* ./data/UCI HAR Dataset/train/Inertial Signals/total_acc_z_train.txt
 
+*Original Data* http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
