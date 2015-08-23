@@ -49,7 +49,6 @@ data_filtered <- data_merged[, which(features_meanstd == TRUE)]
 
 ## 3) Uses descriptive activity names to name the activities in the data set
 ## In order to assign text value to Activity, first convert the Activity type to character vector
-
 index_activity_name <- 2
 num_activties <- as.integer(nrow(data_labels))
 data_filtered$Activity <- sapply(data_filtered$Activity, as.character)
