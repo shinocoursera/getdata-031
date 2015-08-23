@@ -4,7 +4,9 @@ This is a document to describe what is the process necessary to execute run_anal
 
 ## Files
 run_analsysis.R: is the file that run the R code.
+
 READEME.md: is the file you are currently reading, which describes what's in this repository and their purpose.
+
 CodeBook.md: is the file that describes the variables, the data, and any transformations that happend from original data to cleaned up of data.
 
 ## File: run_analysis.R
